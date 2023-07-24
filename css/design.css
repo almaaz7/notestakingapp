@@ -1,0 +1,42 @@
+.hand {
+    cursor: pointer;
+}
+body{
+    align-items: center;
+    background-color: rgb(34, 21, 21);
+}
+
+.form{
+    background-color: black;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+.karleToggle{
+    display: none;
+}
+
+th.sortable {
+    position: relative;
+    cursor: pointer;
+}
+
+th.sortable::after {
+    font-family: FontAwesome;
+    content: "\f0dc";
+    position: absolute;
+    right: 8px;
+    color: #ffffff;
+}
+
+th.sortable:hover::after {
+    color: #7d7d7d;
+}
+
+#searchBox {
+    justify-content: flex-end;
+}
